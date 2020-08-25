@@ -1,0 +1,503 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Asap", sans-serif;
+  background-color: #444;
+}
+
+.sun-navbar {
+  background-color: #2a305a;
+  box-shadow: 1px 1px 5px 0 rgba(34, 39, 73, 0.75);
+  border-color: #2a305a;
+}
+
+.sun-navbar a {
+  color: #fff !important;
+}
+
+.sun-navbar-nav > .active > a {
+  background-color: transparent !important;
+}
+
+.sun-navbar-nav > .active {
+  background-color: #394b7a;
+  transition: 0.5s;
+}
+
+.sun-navbar-nav > li > a {
+  transition: ease-in-out color 0.3s;
+}
+
+.sun-navbar-nav > li > a:hover {
+  color: #b5c6cd !important;
+}
+
+.sun-navbar-toggle {
+  border: 0;
+  background-color: transparent !important;
+}
+
+.sun-navbar-toggle span {
+  background-color: #fff !important;
+}
+
+#HeaderSpan {
+  height: 51px;
+}
+
+.WebsiteLogo {
+  background-color: #fff;
+  height: 50px;
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 45px;
+}
+
+.WebsiteLogo img {
+  height: 30px;
+}
+
+.Signature {
+  font-family: "Yellowtail", sans-serif;
+}
+
+#Home {
+  background-color: #fff;
+  padding-bottom: 200px;
+}
+
+.LinkIcons {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.Intro {
+  margin: 30px auto 80px auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 40px 60px 10px 60px;
+  max-width: 1500px;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.Intro .Greeting {
+  color: #426eb1;
+  font-size: 36px;
+  margin-top: 20px;
+  font-family: "Tillana", sans-serif;
+}
+
+.Intro .Title {
+  color: #717b89;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  font-family: "Farsan", sans-serif;
+}
+
+.Intro .Content {
+  font-family: "Asap", sans-serif;
+  font-size: 14px;
+}
+
+.Intro .Photo {
+  float: right;
+}
+
+.Intro .Photo img {
+  width: 200px;
+  border-radius: 100px;
+  margin: 0 0 20px 20px;
+  display: block;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 4px #888;
+}
+
+.Intro .QuotesStatment {
+  font-family: "Niconne", sans-serif;
+  font-size: 28px;
+  color: #c3beb0;
+  text-align: right;
+}
+
+.Intro .QuotesFrom {
+  font-family: "Yellowtail", sans-serif;
+  font-size: 20px;
+  color: #c3beb0;
+  text-align: right;
+}
+
+#Portfolio {
+  background-color: #f4f4f0;
+  display: none;
+}
+
+.PortfolioView {
+  list-style: none;
+}
+
+.Grey {
+  color: grey;
+}
+
+.PortfolioView li {
+  display: block;
+  padding: 20px 30px 0 0;
+  margin-left: -5px;
+}
+
+.PortfolioItem {
+  padding: 20px;
+  background-color: #ebebe1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #dcdcd0;
+  overflow: hidden;
+  border: 1px solid #d4d4c4;
+  min-height: 280px;
+}
+
+.PortfolioItem h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #2a305a;
+  font-weight: bold;
+}
+
+.PortfolioItem .SnapshotContainer {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.PortfolioItem .snapshot {
+  width: 200px;
+  height: 130px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.PortfolioItem .Introduction {
+}
+
+.PortfolioItem .Actions {
+}
+
+.PortfolioItem .Actions img {
+  width: 14px;
+  height: 14px;
+  margin-top: -5px;
+}
+
+.PortfolioBottom {
+  height: 250px;
+}
+
+.SectionTitle {
+  font-family: "Trirong", sans-serif;
+  font-size: 38px;
+  text-align: center;
+  color: #2a305a;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.SectionSeperator {
+  height: 1px;
+  background-color: #c2c2ba;
+}
+
+.SectionQuote {
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-family: "Niconne", sans-serif;
+  font-size: 24px;
+  color: #c3beb0;
+}
+
+.SecondTitle {
+  color: #337ab7;
+}
+
+#Skillset {
+  background-color: #f4f4f0;
+  display: none;
+}
+
+.SkillsetItems {
+  list-style: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.SkillsetItems li {
+  display: block;
+  margin: 0 0 0 0;
+  padding: 10px 30px;
+  cursor: default;
+}
+
+.SkillsetItems li:hover {
+  background-color: #dee0f0;
+  padding: 10px 35px 10px 35px;
+  transition: 0.3s;
+}
+
+.SkillsetItems .SkillName {
+  color: #2a305a;
+}
+
+.SkillsetItems .SkillStar {
+  float: right;
+  margin-top: -20px;
+}
+
+.SkillsetItems .SkillStar .starfilled {
+  color: #4b5182;
+}
+
+.SkillsetItems .SkillStar .starunfilled {
+  color: #ccc;
+}
+
+.SkillsetBottom {
+  height: 150px;
+}
+
+#Resume {
+  display: none;
+  background-color: #f4f4f0;
+}
+
+#Resume h2 {
+  color: #2a305a;
+}
+
+.ResumeEmployment {
+  list-style: none;
+  overflow: hidden;
+  display: block;
+  padding: 0 10px;
+}
+
+.ResumeEmployment > li {
+  display: block;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+}
+
+.ResumeEmployment > li > .EmploymentSection {
+  margin: 10px 0 0 0;
+}
+
+.ResumeEmployment .CompanyName {
+  font-weight: bold;
+  font-size: 16px;
+  height: 25px;
+}
+
+.ResumeEmployment .Position {
+  font-weight: bold;
+  font-size: 14px;
+  height: 25px;
+}
+
+.ResumeEmployment .EmploymentDates {
+  color: #888;
+}
+
+.ResumeEmployment .Introduction {
+  color: #888;
+}
+
+#Resume .ResumeBottom {
+  height: 200px;
+}
+
+#Resume .EmploymentBottom {
+  height: 50px;
+}
+
+#Contact {
+  display: none;
+  background-color: #f4f4f0;
+}
+
+.ContactContent {
+  padding: 20px 20px;
+}
+
+.ContactInfo {
+  margin-bottom: 50px;
+}
+
+.ContactInfoItem {
+  margin: 0 0 5px 20px;
+  overflow: hidden;
+}
+
+.ContactInfoKey {
+  float: left;
+  font-weight: bold;
+  width: 50px;
+  text-align: right;
+}
+
+.ContactSocialLink {
+  height: 30px;
+}
+
+.ContactIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.ContactInfoValue {
+  margin-left: 60px;
+}
+
+.ContactFormContainer {
+  max-width: 450px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: #f3f3e9;
+  padding: 30px 30px 10px 30px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+
+.ContactFormItem {
+  overflow: hidden;
+  margin: 0 0 10px 0;
+}
+
+.ContactFormKey {
+  font-weight: bold;
+  float: left;
+  width: 80px;
+  margin-top: 6px;
+  text-align: right;
+}
+
+.ContactFormValue {
+  margin: 0 0 0 90px;
+}
+
+.ContactBottom {
+  height: 500px;
+}
+
+.ContactMessage {
+  height: 80px !important;
+}
+
+.ContactWelcome {
+  margin: 20px 0 10px 40px;
+}
+
+#PortfolioGalleryContainer {
+  overflow: hidden;
+  background-color: #333333;
+  padding: 20px;
+}
+
+.PortfolioGalleryBody {
+  overflow: hidden;
+  width: 660px;
+}
+
+#PortfolioGalleryFullSizeImage {
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+}
+
+#PortfolioGalleryFullSizeImage img {
+  max-width: 600px;
+  max-height: 350px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+#PortfolioGalleryThumbnail {
+  overflow: hidden;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  height: 70px;
+  white-space: nowrap;
+}
+
+#PortfolioGalleryThumbnail img {
+  height: 30px;
+  display: inline-block;
+  border: 2px solid #333333;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: 0.2s;
+  margin: 0 5px 0 0;
+}
+
+.PortfolioGalleryThumbnailImageFocus {
+  height: 48px !important;
+  transition: 0.2s;
+}
+
+#PortfolioGalleryThumbnail img:hover {
+  border: 2px solid #d9d9d9;
+}
+
+#Bottom {
+}
+
+@media (max-width: 768px) {
+  .sun-navbar {
+    border-color: #2a305a;
+  }
+
+  #navbar {
+    border-color: #2a305a;
+  }
+
+  .Intro {
+    padding: 40px 40px 10px 40px;
+  }
+
+  .Intro .Photo {
+    float: none;
+  }
+
+  .Intro .Photo img {
+    margin: 0 auto;
+  }
+
+  .Intro .Greeting {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .Intro .Title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 990px) {
+  .Intro .Greeting {
+    padding-left: 80px;
+  }
+
+  .Intro .Title {
+    padding-left: 80px;
+  }
+
+  .Intro .Photo {
+    margin-right: 60px;
+  }
+}
+
+.CompanyLogoMini {
+  height: 30px;
+}
